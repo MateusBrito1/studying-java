@@ -11,7 +11,7 @@ public class Aula10Arrays {
         return accSum;
     }
 
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         int[] ageStudents = new int[5];
         ageStudents[0] = 10;
 
