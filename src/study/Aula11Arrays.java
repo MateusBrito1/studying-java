@@ -1,4 +1,4 @@
-package academy.devdojo;
+package study;
 
 public class Aula11Arrays {
     public static void main(String[] args) {
