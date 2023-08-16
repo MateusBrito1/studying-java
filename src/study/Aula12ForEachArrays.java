@@ -1,4 +1,4 @@
-package academy.devdojo;
+package study;
 
 public class Aula12ForEachArrays {
     public static void main(String[] args) {

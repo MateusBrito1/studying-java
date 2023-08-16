@@ -1,4 +1,4 @@
-package academy.devdojo;
+package study;
 
 public class Aula04OpAritmeticos {
     public static void main(String[] args) {

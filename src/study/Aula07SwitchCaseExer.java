@@ -1,4 +1,4 @@
-package academy.devdojo;
+package study;
 
 public class Aula07SwitchCaseExer {
     public static void main(String[] args) {

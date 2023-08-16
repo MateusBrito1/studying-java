@@ -1,4 +1,4 @@
-package academy.devdojo;
+package study;
 
 public class Aula08EstruturasRepetição {
     public static void main(String[] args) {

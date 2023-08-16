@@ -1,4 +1,4 @@
-package academy.devdojo;
+package study;
 
 public class Aula10Arrays {
     public static int sumOfElementsArrays(int[] ageStudents) {

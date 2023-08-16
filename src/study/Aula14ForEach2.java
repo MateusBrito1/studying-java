@@ -1,4 +1,4 @@
-package academy.devdojo;
+package study;
 
 import java.util.Random;
 
