@@ -12,7 +12,6 @@ public class Aula15AnatomiaClasses {
 
     public static String fullName(String firstName, String secondName) {
         return firstName + " " + secondName;
-
     }
 }
 
