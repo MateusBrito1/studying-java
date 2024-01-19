@@ -3,8 +3,8 @@ package study;
 public class Matrizes {
     public static void main(String[] args) {
         int row1, col1, row2, col2;
-        int[][] a = { {1, 3, 2}, {3, 1, 1}, {1, 2, 2} };
-        int[][] b = { {2, 1, 1}, {1, 0, 1}, {1, 3, 1} };
+        int[][] a = {{1, 3, 2}, {3, 1, 1}, {1, 2, 2}};
+        int[][] b = {{2, 1, 1}, {1, 0, 1}, {1, 3, 1}};
         row1 = a.length;
         col1 = a[0].length;
         row2 = b.length;
