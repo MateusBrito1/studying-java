@@ -12,7 +12,7 @@ public class Matrizes {
         if (col1 != row2) {
             System.out.println("Matrices cannot be multiplied");
         } else {
-            int prod[][] = new int[row1][col2];
+            int[][] prod = new int[row1][col2];
             for (int i = 0; i < row1; i++) {
                 for (int j = 0; j < col2; j++) {
                     for (int k = 0; k < row2; k++) {
