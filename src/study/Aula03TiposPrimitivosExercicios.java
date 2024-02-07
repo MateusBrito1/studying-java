@@ -10,5 +10,6 @@ public class Aula03TiposPrimitivosExercicios {
 
         System.out.println("Eu " + nome + " morando no endereço " + endereco + " confirmo que recebi o salário de " + salario + " na data de " + dataSalario);
         //Concatenação.
+
     }
 }

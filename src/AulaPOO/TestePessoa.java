@@ -4,7 +4,6 @@ public class TestePessoa {
 
     public static void main(String[] args) {
         Pessoa pessoa = new Pessoa();
-        pessoa.cor = "negra";
         pessoa.cpf = "111111";
         pessoa.nome = "Mateus";
         pessoa.idade = 10;
@@ -17,6 +16,5 @@ public class TestePessoa {
         pessoa2.cpf = "3333333";
 
         System.out.println(pessoa2.imprimirDadosPessoais());
-        System.out.println("oláa");
     }
 }
