@@ -1,6 +1,6 @@
 package study;
 
-public class Matrizes {
+public class Aula20Matrizes {
     public static void main(String[] args) {
         int row1, col1, row2, col2;
         int[][] a = {{1, 3, 2}, {3, 1, 1}, {1, 2, 2}};
