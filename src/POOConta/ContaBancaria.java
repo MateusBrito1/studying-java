@@ -27,6 +27,7 @@ public class ContaBancaria {
     }
 
     public void setSaldo(double saldo) {
+        //Também posso setar que o saldo possa começar com 0 reais.
         this.saldo = saldo;
     }
 

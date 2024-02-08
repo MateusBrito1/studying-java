@@ -2,7 +2,6 @@ package POOConta;
 
 public class TesteContaBancaria {
 
-
     public static void main(String[] args) {
 
         ContaBancaria contaBancaria1 = new ContaBancaria();
@@ -20,9 +19,5 @@ public class TesteContaBancaria {
         //Aqui eu estou dando get no número (get = pegando)
         System.out.println(" Olá, " + contaBancaria1.getTitular());
         System.out.println(" O número da conta é : " + contaBancaria1.getNumero());
-
-        System.out.println("SEILAAAAAAAAAAAAAAAAAAAAAAAAAAAAA");
-
-
     }
 }
