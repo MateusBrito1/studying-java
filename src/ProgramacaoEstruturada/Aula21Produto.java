@@ -1,6 +1,6 @@
 package ProgramacaoEstruturada;
 
-public class Produto {
+public class Aula21Produto {
     int codigo;
     double preco;
     int quantidadeEstoque;
@@ -16,7 +16,7 @@ public class Produto {
         }
     }
 
-    void exibirInformações() {
+    void exibirInformacoes() {
         System.out.println("Produto: " + nome);
         System.out.println("Preço R$" + preco);
         System.out.println("Estoque Atual: " + quantidadeEstoque + " unidades");
@@ -24,14 +24,14 @@ public class Produto {
     }
 
     public static void main(String[] args) {
-        Produto meuProduto = new Produto();
+        Aula21Produto meuAula21Produto = new Aula21Produto();
 
-        meuProduto.nome = "Camisetas";
-        meuProduto.preco = 1500;
-        meuProduto.quantidadeEstoque = 20;
-        meuProduto.codigo = 24893589;
+        meuAula21Produto.nome = "Camisetas";
+        meuAula21Produto.preco = 1500;
+        meuAula21Produto.quantidadeEstoque = 20;
+        meuAula21Produto.codigo = 24893589;
 
-        meuProduto.adicionarAoCarrinho(9);
-        meuProduto.exibirInformações();
+        meuAula21Produto.adicionarAoCarrinho(9);
+        meuAula21Produto.exibirInformacoes();
     }
 }

@@ -1,6 +1,6 @@
 package ProgramacaoEstruturada;
 
-public class Carro {
+public class Aula19Carro {
 
     String cor;
     String modelo;
@@ -23,7 +23,7 @@ public class Carro {
 
     public static void main(String[] args) {
 
-        Carro meuCarro = new Carro();
+        Aula19Carro meuCarro = new Aula19Carro();
 
         meuCarro.cor = "Azul";
         meuCarro.modelo = "BMW";

@@ -22,11 +22,11 @@ public class Cachorro implements Animal {
     }
 
     void humorDoCachorro() {
-        Scanner sc = new Scanner(System.in);
-        System.out.println(" Cachorro comeu?");
-        String humor = sc.nextLine().toLowerCase();
-
-        if (humor.equals("sim")) {
+        Scanner sc = new Scanner(System.in); //Abrindo o scanner, para poder inserir algo no input
+        System.out.println(" Cachorro comeu?"); // A pergunta para o scanner
+        String humor = sc.nextLine().toLowerCase(); // Uma variável que recebe o que vai ser digitado e logo após
+        // (toLowerCase) para a resposta ser certa mesmo se for com começo maiusculo ou minusculo.
+        if (humor.equals("sim")) { // Vai pegar se o que foi digitiado no input foi o mesmo que está no 'equals'
             System.out.println("O cachorro está muito feliz");
         } else {
             System.out.println(" O Cachorro está " + humor);
