@@ -17,6 +17,5 @@ public class Aula16TryCatch {
         catch (InputMismatchException e) {
             System.out.println("Desculpe, a idade tem que ser um número ");
         }
-
     }
 }
