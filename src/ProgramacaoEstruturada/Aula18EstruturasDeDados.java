@@ -17,5 +17,6 @@ public class Aula18EstruturasDeDados {
 //            System.out.println("O nome é: " + nome);
 //        }
         nomes.forEach(nome -> System.out.println("O nome é: " + nome));
+        System.out.println("Não sei bem o que fazer");
     }
 }
